@@ -1,0 +1,3883 @@
+{
+  "schemaVersion": "1.1",
+  "sampleData": false,
+  "generatedAt": "2026-04-28",
+  "timeZone": "America/Chicago",
+  "coverageNote": "Near-term Houston cinema listings gathered from public source pages for April 28-May 3, 2026. Verify with source pages before attending.",
+  "description": "Showtime-level data for CinemaCalmly. Each record links to movies.json by movieId and theaters.json by theaterId.",
+  "showtimes": [
+    {
+      "id": "st-2026-04-28-ipic-houston-michael-1100-127",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "11:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1100-043",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "11:00",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-mother-mary-1100-069",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "11:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1105-097",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "11:05",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-mummy-1110-084",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "11:10",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-the-super-mario-galaxy-movie-1115-151",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "11:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-you-me-and-tuscany-1115-092",
+      "movieId": "you-me-and-tuscany",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "11:15",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-fireflies-at-el-mozote-1120-081",
+      "movieId": "fireflies-at-el-mozote",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "11:20",
+      "tags": [
+        "dubbed",
+        "spanish-language",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1125-047",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "11:25",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-michael-1130-128",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "11:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-project-hail-mary-1130-112",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "11:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1140-061",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "11:40",
+      "tags": [
+        "4dx",
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-the-mummy-1145-139",
+      "movieId": "the-mummy",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "11:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-hoppers-1145-123",
+      "movieId": "hoppers",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "11:45",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-project-hail-mary-1150-113",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "11:50",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-mummy-1155-088",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "11:55",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-the-drama-1200-147",
+      "movieId": "the-drama",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "12:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1200-102",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "12:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-mother-mary-1205-074",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "12:05",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1210-048",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "12:10",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-michael-1215-129",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "12:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1215-109",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "12:15",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-project-hail-mary-1230-155",
+      "movieId": "project-hail-mary",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "12:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-river-oaks-theatre-michael-1230-016",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-28",
+      "startTime": "12:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1235-103",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "12:35",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-project-hail-mary-1250-119",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "12:50",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1310-049",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "13:10",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-you-me-and-tuscany-1315-143",
+      "movieId": "you-me-and-tuscany",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "13:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-drama-1315-093",
+      "movieId": "the-drama",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "13:15",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-river-oaks-theatre-mother-mary-1330-006",
+      "movieId": "mother-mary",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-28",
+      "startTime": "13:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1335-098",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "13:35",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1340-065",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "13:40",
+      "tags": [
+        "closed-caption",
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-whisper-of-the-heart-4k-1345-079",
+      "movieId": "whisper-of-the-heart-4k",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "13:45",
+      "tags": [
+        "dubbed"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-mother-mary-1350-070",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "13:50",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1355-050",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "13:55",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1410-044",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "14:10",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-the-super-mario-galaxy-movie-1415-152",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "14:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-mummy-1420-085",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "14:20",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-michael-1430-130",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "14:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-project-hail-mary-1430-114",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "14:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1435-051",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "14:35",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1440-104",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "14:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1450-062",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "14:50",
+      "tags": [
+        "4dx",
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1455-110",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "14:55",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-michael-1500-131",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "15:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-mother-mary-1505-075",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "15:05",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-mummy-1510-089",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "15:10",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-the-mummy-1515-140",
+      "movieId": "the-mummy",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "15:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-project-hail-mary-1515-156",
+      "movieId": "project-hail-mary",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "15:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1515-111",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "15:15",
+      "tags": [
+        "3d",
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1520-052",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "15:20",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-hoppers-1525-124",
+      "movieId": "hoppers",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "15:25",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-project-hail-mary-1530-115",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "15:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-river-oaks-theatre-the-christophers-1530-032",
+      "movieId": "the-christophers",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-28",
+      "startTime": "15:30",
+      "tags": [
+        "dine-in",
+        "independent"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-michael-1545-132",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "15:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-river-oaks-theatre-michael-1545-017",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-28",
+      "startTime": "15:45",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-drama-1605-094",
+      "movieId": "the-drama",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "16:05",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1615-099",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "16:15",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1620-053",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "16:20",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-you-me-and-tuscany-1630-144",
+      "movieId": "you-me-and-tuscany",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "16:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-the-drama-1630-148",
+      "movieId": "the-drama",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "16:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-project-hail-mary-1630-120",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "16:30",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-river-oaks-theatre-mother-mary-1630-007",
+      "movieId": "mother-mary",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-28",
+      "startTime": "16:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-28-river-oaks-theatre-the-drama-1630-037",
+      "movieId": "the-drama",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-28",
+      "startTime": "16:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-fireflies-at-el-mozote-1635-082",
+      "movieId": "fireflies-at-el-mozote",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "16:35",
+      "tags": [
+        "dubbed",
+        "spanish-language",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-mother-mary-1645-071",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "16:45",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1650-066",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "16:50",
+      "tags": [
+        "closed-caption",
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1705-054",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "17:05",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1715-105",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "17:15",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1720-045",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "17:20",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1730-068",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "17:30",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-mummy-1735-086",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "17:35",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1745-055",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "17:45",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1750-106",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "17:50",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-michael-1800-133",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "18:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-the-super-mario-galaxy-movie-1800-153",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "18:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1800-063",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "18:00",
+      "tags": [
+        "4dx",
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-mother-mary-1810-076",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "18:10",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-project-hail-mary-1815-116",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "18:15",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-river-oaks-theatre-michael-1815-018",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-28",
+      "startTime": "18:15",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-mummy-1825-090",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "18:25",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-michael-1830-134",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "18:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1830-056",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "18:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-drama-1840-095",
+      "movieId": "the-drama",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "18:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-project-hail-mary-1845-157",
+      "movieId": "project-hail-mary",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "18:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1850-100",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "18:50",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-the-mummy-1900-141",
+      "movieId": "the-mummy",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "19:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-whisper-of-the-heart-4k-1910-080",
+      "movieId": "whisper-of-the-heart-4k",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "19:10",
+      "tags": [
+        "japanese-language",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-michael-1915-135",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "19:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-project-hail-mary-1915-117",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "19:15",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-hoppers-1925-125",
+      "movieId": "hoppers",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "19:25",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-1930-057",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "19:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-river-oaks-theatre-mother-mary-1930-008",
+      "movieId": "mother-mary",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-28",
+      "startTime": "19:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-mother-mary-1940-072",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "19:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-you-me-and-tuscany-1945-145",
+      "movieId": "you-me-and-tuscany",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "19:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-the-drama-1945-149",
+      "movieId": "the-drama",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "19:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1950-107",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "19:50",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-2000-067",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "20:00",
+      "tags": [
+        "closed-caption",
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-project-hail-mary-2010-121",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "20:10",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-2015-058",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "20:15",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-2030-046",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "20:30",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-over-your-dead-body-2035-078",
+      "movieId": "over-your-dead-body",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "20:35",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-mummy-2045-087",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "20:45",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-project-hail-mary-2050-122",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "20:50",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-the-super-mario-galaxy-movie-2100-154",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "21:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-2100-059",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "21:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-mother-mary-2110-077",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "21:10",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-2120-064",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "21:20",
+      "tags": [
+        "4dx",
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-drama-2125-096",
+      "movieId": "the-drama",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "21:25",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-michael-2130-136",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "21:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-2130-101",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "21:30",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-river-oaks-theatre-the-christophers-2130-033",
+      "movieId": "the-christophers",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-28",
+      "startTime": "21:30",
+      "tags": [
+        "dine-in",
+        "independent"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-mummy-2140-091",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "21:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-michael-2150-060",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "21:50",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-michael-2200-137",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "22:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-project-hail-mary-2200-118",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "22:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-fireflies-at-el-mozote-2205-083",
+      "movieId": "fireflies-at-el-mozote",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "22:05",
+      "tags": [
+        "dubbed",
+        "spanish-language",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-hoppers-2210-126",
+      "movieId": "hoppers",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "22:10",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-river-oaks-theatre-michael-2215-019",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-28",
+      "startTime": "22:15",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-the-mummy-2230-142",
+      "movieId": "the-mummy",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "22:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-project-hail-mary-2230-158",
+      "movieId": "project-hail-mary",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "22:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-2230-108",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "22:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-river-oaks-theatre-mother-mary-2230-009",
+      "movieId": "mother-mary",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-28",
+      "startTime": "22:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-28-regal-edwards-houston-marqe-mother-mary-2240-073",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-28",
+      "startTime": "22:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-michael-2245-138",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "22:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-the-drama-2245-150",
+      "movieId": "the-drama",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "22:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-28-ipic-houston-you-me-and-tuscany-2300-146",
+      "movieId": "you-me-and-tuscany",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-28",
+      "startTime": "23:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-28"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-michael-1100-244",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "11:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1100-161",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "11:00",
+      "tags": [
+        "closed-caption",
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-mother-mary-1100-185",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "11:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1105-213",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "11:05",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-mummy-1110-200",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "11:10",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-the-super-mario-galaxy-movie-1115-268",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "11:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-you-me-and-tuscany-1115-208",
+      "movieId": "you-me-and-tuscany",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "11:15",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-fireflies-at-el-mozote-1120-197",
+      "movieId": "fireflies-at-el-mozote",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "11:20",
+      "tags": [
+        "dubbed",
+        "spanish-language",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1125-164",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "11:25",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-michael-1130-245",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "11:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-project-hail-mary-1130-228",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "11:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1140-177",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "11:40",
+      "tags": [
+        "4dx",
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-the-mummy-1145-256",
+      "movieId": "the-mummy",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "11:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-hoppers-1145-238",
+      "movieId": "hoppers",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "11:45",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-project-hail-mary-1150-229",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "11:50",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-mummy-1155-204",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "11:55",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-the-drama-1200-264",
+      "movieId": "the-drama",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "12:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1200-218",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "12:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-mother-mary-1205-190",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "12:05",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1210-165",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "12:10",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-michael-1215-246",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "12:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1215-225",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "12:15",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-two-prosecutors-1215-041",
+      "movieId": "two-prosecutors",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "12:15",
+      "tags": [
+        "independent",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-project-hail-mary-1230-272",
+      "movieId": "project-hail-mary",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "12:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-michael-1230-020",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "12:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1235-219",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "12:35",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-drama-1245-209",
+      "movieId": "the-drama",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "12:45",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-project-hail-mary-1250-235",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "12:50",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1310-166",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "13:10",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-you-me-and-tuscany-1315-260",
+      "movieId": "you-me-and-tuscany",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "13:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-mother-mary-1330-010",
+      "movieId": "mother-mary",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "13:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-the-drama-1330-038",
+      "movieId": "the-drama",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "13:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1335-214",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "13:35",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1340-181",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "13:40",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-whisper-of-the-heart-4k-1345-195",
+      "movieId": "whisper-of-the-heart-4k",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "13:45",
+      "tags": [
+        "dubbed"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-mother-mary-1350-186",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "13:50",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1355-167",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "13:55",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1410-162",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "14:10",
+      "tags": [
+        "closed-caption",
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-the-super-mario-galaxy-movie-1415-269",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "14:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-mummy-1420-201",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "14:20",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-michael-1430-247",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "14:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-project-hail-mary-1430-230",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "14:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1435-168",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "14:35",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1440-220",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "14:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1450-178",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "14:50",
+      "tags": [
+        "4dx",
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1455-226",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "14:55",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-michael-1500-248",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "15:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-mother-mary-1505-191",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "15:05",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-mummy-1510-205",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "15:10",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-the-mummy-1515-257",
+      "movieId": "the-mummy",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "15:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-project-hail-mary-1515-273",
+      "movieId": "project-hail-mary",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "15:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1515-227",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "15:15",
+      "tags": [
+        "3d",
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1520-169",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "15:20",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-hoppers-1525-239",
+      "movieId": "hoppers",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "15:25",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-project-hail-mary-1530-231",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "15:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-the-christophers-1530-034",
+      "movieId": "the-christophers",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "15:30",
+      "tags": [
+        "dine-in",
+        "independent"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-girls-trip-1535-241",
+      "movieId": "girls-trip",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "15:35",
+      "tags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-drama-1540-210",
+      "movieId": "the-drama",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "15:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-michael-1545-249",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "15:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-michael-1545-021",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "15:45",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-scott-pilgrim-vs-the-world-1600-042",
+      "movieId": "scott-pilgrim-vs-the-world",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "16:00",
+      "tags": [
+        "repertory"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1615-215",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "16:15",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1620-170",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "16:20",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-you-me-and-tuscany-1630-261",
+      "movieId": "you-me-and-tuscany",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "16:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-the-drama-1630-265",
+      "movieId": "the-drama",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "16:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-project-hail-mary-1630-236",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "16:30",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-mother-mary-1630-011",
+      "movieId": "mother-mary",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "16:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-fireflies-at-el-mozote-1635-198",
+      "movieId": "fireflies-at-el-mozote",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "16:35",
+      "tags": [
+        "dubbed",
+        "spanish-language",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-mother-mary-1645-187",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "16:45",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1650-182",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "16:50",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1705-171",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "17:05",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1715-221",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "17:15",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1720-163",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "17:20",
+      "tags": [
+        "closed-caption",
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-mummy-1735-202",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "17:35",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1745-172",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "17:45",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1750-222",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "17:50",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-michael-1800-250",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "18:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-the-super-mario-galaxy-movie-1800-270",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "18:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1800-179",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "18:00",
+      "tags": [
+        "4dx",
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-mother-mary-1810-192",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "18:10",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-project-hail-mary-1815-232",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "18:15",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-michael-1815-022",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "18:15",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-mummy-1825-206",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "18:25",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-michael-1830-251",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "18:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-1830-173",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "18:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-girls-trip-1835-242",
+      "movieId": "girls-trip",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "18:35",
+      "tags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-project-hail-mary-1845-274",
+      "movieId": "project-hail-mary",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "18:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1850-216",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "18:50",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-the-mummy-1900-258",
+      "movieId": "the-mummy",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "19:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-power-to-the-people-john-and-yoko-live-in-nyc-1900-160",
+      "movieId": "power-to-the-people-john-and-yoko-live-in-nyc",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "19:00",
+      "tags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-whisper-of-the-heart-4k-1910-196",
+      "movieId": "whisper-of-the-heart-4k",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "19:10",
+      "tags": [
+        "japanese-language",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-michael-1915-252",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "19:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-project-hail-mary-1915-233",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "19:15",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-houston-filmmaker-showcase-april-2026-1915-040",
+      "movieId": "houston-filmmaker-showcase-april-2026",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "19:15",
+      "tags": [
+        "festival",
+        "local"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-drama-1930-211",
+      "movieId": "the-drama",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "19:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-mother-mary-1930-012",
+      "movieId": "mother-mary",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "19:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-mother-mary-1940-188",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "19:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-you-me-and-tuscany-1945-262",
+      "movieId": "you-me-and-tuscany",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "19:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-the-drama-1945-266",
+      "movieId": "the-drama",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "19:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-1950-223",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "19:50",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-2000-183",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "20:00",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-project-hail-mary-2010-237",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "20:10",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-2015-174",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "20:15",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-one-ok-rock-detox-japan-tour-2025-at-nissan-stadium-in-cinemas-2030-159",
+      "movieId": "one-ok-rock-detox-japan-tour-2025-at-nissan-stadium-in-cinemas",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "20:30",
+      "tags": [
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-over-your-dead-body-2035-194",
+      "movieId": "over-your-dead-body",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "20:35",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-mummy-2045-203",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "20:45",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-the-super-mario-galaxy-movie-2100-271",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "21:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-2100-175",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "21:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-mother-mary-2110-193",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "21:10",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-2120-180",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "21:20",
+      "tags": [
+        "4dx",
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-michael-2130-253",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "21:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-2130-217",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "21:30",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-the-christophers-2130-035",
+      "movieId": "the-christophers",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "21:30",
+      "tags": [
+        "dine-in",
+        "independent"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-mummy-2140-207",
+      "movieId": "the-mummy",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "21:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-girls-trip-2145-243",
+      "movieId": "girls-trip",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "21:45",
+      "tags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-2150-176",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "21:50",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-drama-2155-212",
+      "movieId": "the-drama",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "21:55",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-michael-2200-254",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "22:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-project-hail-mary-2200-234",
+      "movieId": "project-hail-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "22:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-michael-2205-184",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "22:05",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-hoppers-2210-240",
+      "movieId": "hoppers",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "22:10",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-fireflies-at-el-mozote-2215-199",
+      "movieId": "fireflies-at-el-mozote",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "22:15",
+      "tags": [
+        "dubbed",
+        "spanish-language",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-michael-2215-023",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "22:15",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-the-mummy-2230-259",
+      "movieId": "the-mummy",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "22:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-project-hail-mary-2230-275",
+      "movieId": "project-hail-mary",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "22:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-the-super-mario-galaxy-movie-2230-224",
+      "movieId": "the-super-mario-galaxy-movie",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "22:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-river-oaks-theatre-mother-mary-2230-013",
+      "movieId": "mother-mary",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-29",
+      "startTime": "22:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-29-regal-edwards-houston-marqe-mother-mary-2240-189",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-29",
+      "startTime": "22:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-michael-2245-255",
+      "movieId": "michael",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "22:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-the-drama-2245-267",
+      "movieId": "the-drama",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "22:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-29-ipic-houston-you-me-and-tuscany-2300-263",
+      "movieId": "you-me-and-tuscany",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-29",
+      "startTime": "23:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-mother-mary-1100-297",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "11:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-michael-1200-293",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "12:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-river-oaks-theatre-michael-1230-024",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-30",
+      "startTime": "12:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-30-river-oaks-theatre-the-drama-1245-039",
+      "movieId": "the-drama",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-30",
+      "startTime": "12:45",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-30-river-oaks-theatre-mother-mary-1330-014",
+      "movieId": "mother-mary",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-30",
+      "startTime": "13:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-mother-mary-1350-298",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "13:50",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-devil-wears-prada-2-1400-277",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "14:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-devil-wears-prada-2-1505-281",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "15:05",
+      "tags": [
+        "closed-caption",
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-michael-1510-294",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "15:10",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-river-oaks-theatre-the-christophers-1530-036",
+      "movieId": "the-christophers",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-30",
+      "startTime": "15:30",
+      "tags": [
+        "dine-in",
+        "independent"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-devil-wears-prada-2-1535-284",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "15:35",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-ipic-houston-the-devil-wears-prada-2-1545-302",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-30",
+      "startTime": "15:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-river-oaks-theatre-michael-1545-025",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-30",
+      "startTime": "15:45",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-animal-farm-1555-276",
+      "movieId": "animal-farm",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "15:55",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-devil-wears-prada-2-1605-287",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "16:05",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-ipic-houston-the-devil-wears-prada-2-1615-303",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-30",
+      "startTime": "16:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-river-oaks-theatre-mother-mary-1630-015",
+      "movieId": "mother-mary",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-30",
+      "startTime": "16:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-mother-mary-1645-299",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "16:45",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-devil-wears-prada-2-1650-278",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "16:50",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-devil-wears-prada-2-1800-282",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "18:00",
+      "tags": [
+        "closed-caption",
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-michael-1820-295",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "18:20",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-devil-wears-prada-2-1830-285",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "18:30",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-story-of-everything-1830-292",
+      "movieId": "the-story-of-everything",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "18:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-ipic-houston-the-devil-wears-prada-2-1900-304",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-30",
+      "startTime": "19:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-devil-wears-prada-2-1900-288",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "19:00",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-river-oaks-theatre-michael-1900-026",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-30",
+      "startTime": "19:00",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-30-ipic-houston-the-devil-wears-prada-2-1930-305",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-30",
+      "startTime": "19:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-hokum-1930-290",
+      "movieId": "hokum",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "19:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-devil-wears-prada-2-1940-279",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "19:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-mother-mary-1940-300",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "19:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-devil-wears-prada-2-2100-283",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "21:00",
+      "tags": [
+        "closed-caption",
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-devil-wears-prada-2-2130-286",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "21:30",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-michael-2140-296",
+      "movieId": "michael",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "21:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-devil-wears-prada-2-2200-289",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "22:00",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-ipic-houston-the-devil-wears-prada-2-2215-306",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-30",
+      "startTime": "22:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-river-oaks-theatre-michael-2215-027",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-04-30",
+      "startTime": "22:15",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-hokum-2225-291",
+      "movieId": "hokum",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "22:25",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-mother-mary-2235-301",
+      "movieId": "mother-mary",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "22:35",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-regal-edwards-houston-marqe-the-devil-wears-prada-2-2240-280",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-04-30",
+      "startTime": "22:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-04-30-ipic-houston-the-devil-wears-prada-2-2245-307",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-04-30",
+      "startTime": "22:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-30"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-hokum-1050-327",
+      "movieId": "hokum",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "10:50",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-1100-310",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "11:00",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-ipic-houston-the-devil-wears-prada-2-1130-334",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-05-01",
+      "startTime": "11:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-1210-315",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "12:10",
+      "tags": [
+        "closed-caption",
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-ipic-houston-the-devil-wears-prada-2-1230-335",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-05-01",
+      "startTime": "12:30",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-river-oaks-theatre-michael-1230-028",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-05-01",
+      "startTime": "12:30",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-1240-319",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "12:40",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-1310-323",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "13:10",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-animal-farm-1315-308",
+      "movieId": "animal-farm",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "13:15",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-hokum-1340-328",
+      "movieId": "hokum",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "13:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-1350-311",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "13:50",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-ipic-houston-the-devil-wears-prada-2-1445-336",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-05-01",
+      "startTime": "14:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-story-of-everything-1500-332",
+      "movieId": "the-story-of-everything",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "15:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-1505-316",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "15:05",
+      "tags": [
+        "closed-caption",
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-1535-320",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "15:35",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-ipic-houston-the-devil-wears-prada-2-1545-337",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-05-01",
+      "startTime": "15:45",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-river-oaks-theatre-michael-1545-029",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-05-01",
+      "startTime": "15:45",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-1605-324",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "16:05",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-hokum-1635-329",
+      "movieId": "hokum",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "16:35",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-1645-312",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "16:45",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-ipic-houston-the-devil-wears-prada-2-1800-338",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-05-01",
+      "startTime": "18:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-1800-317",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "18:00",
+      "tags": [
+        "closed-caption",
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-river-oaks-theatre-michael-1815-030",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-05-01",
+      "startTime": "18:15",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-1830-321",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "18:30",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-story-of-everything-1830-333",
+      "movieId": "the-story-of-everything",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "18:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-animal-farm-1840-309",
+      "movieId": "animal-farm",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "18:40",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-ipic-houston-the-devil-wears-prada-2-1900-339",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-05-01",
+      "startTime": "19:00",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-mfah-films-match-made-in-heaven-anges-and-cie-1900-001",
+      "movieId": "match-made-in-heaven-anges-and-cie",
+      "theaterId": "mfah-films",
+      "date": "2026-05-01",
+      "startTime": "19:00",
+      "tags": [
+        "festival",
+        "french-language",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.mfah.org/events?date=2026-04-25&p=3"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-1900-325",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "19:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-hokum-1930-330",
+      "movieId": "hokum",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "19:30",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-1940-313",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "19:40",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-mfah-films-bald-is-the-new-black-certains-l-aiment-chauve-2100-002",
+      "movieId": "bald-is-the-new-black-certains-l-aiment-chauve",
+      "theaterId": "mfah-films",
+      "date": "2026-05-01",
+      "startTime": "21:00",
+      "tags": [
+        "festival",
+        "french-language",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.mfah.org/events?date=2026-04-25&p=3"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-2100-318",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "21:00",
+      "tags": [
+        "closed-caption",
+        "screenx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-ipic-houston-the-devil-wears-prada-2-2115-340",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-05-01",
+      "startTime": "21:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-2130-322",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "21:30",
+      "tags": [
+        "closed-caption",
+        "recliners"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-2200-326",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "22:00",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-river-oaks-theatre-michael-2200-031",
+      "movieId": "michael",
+      "theaterId": "river-oaks-theatre",
+      "date": "2026-05-01",
+      "startTime": "22:00",
+      "tags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/"
+    },
+    {
+      "id": "st-2026-05-01-ipic-houston-the-devil-wears-prada-2-2215-341",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "ipic-houston",
+      "date": "2026-05-01",
+      "startTime": "22:15",
+      "tags": [
+        "premium"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-hokum-2225-331",
+      "movieId": "hokum",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "22:25",
+      "tags": [
+        "closed-caption"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-01-regal-edwards-houston-marqe-the-devil-wears-prada-2-2240-314",
+      "movieId": "the-devil-wears-prada-2",
+      "theaterId": "regal-edwards-houston-marqe",
+      "date": "2026-05-01",
+      "startTime": "22:40",
+      "tags": [
+        "closed-caption",
+        "dolby-atmos",
+        "rpx"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-05-01"
+    },
+    {
+      "id": "st-2026-05-02-mfah-films-cycle-of-time-c-tait-mieux-demain-1700-003",
+      "movieId": "cycle-of-time-c-tait-mieux-demain",
+      "theaterId": "mfah-films",
+      "date": "2026-05-02",
+      "startTime": "17:00",
+      "tags": [
+        "festival",
+        "french-language",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.mfah.org/events?date=2026-04-25&p=3"
+    },
+    {
+      "id": "st-2026-05-02-mfah-films-off-to-india-d-localis-s-1915-004",
+      "movieId": "off-to-india-d-localis-s",
+      "theaterId": "mfah-films",
+      "date": "2026-05-02",
+      "startTime": "19:15",
+      "tags": [
+        "festival",
+        "french-language",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.mfah.org/events?date=2026-04-25&p=3"
+    },
+    {
+      "id": "st-2026-05-03-mfah-films-natacha-almost-air-hostess-natacha-presque-h-stesse-de-l-air-1700-005",
+      "movieId": "natacha-almost-air-hostess-natacha-presque-h-stesse-de-l-air",
+      "theaterId": "mfah-films",
+      "date": "2026-05-03",
+      "startTime": "17:00",
+      "tags": [
+        "festival",
+        "french-language",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.mfah.org/events?date=2026-04-25&p=3"
+    }
+  ]
+}

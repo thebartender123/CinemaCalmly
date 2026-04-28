@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cinema, calmly found.</title>
+    <meta name="description" content="A quieter way to browse Houston cinema showtimes." />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <aside class="sidebar" aria-label="Showtime filters">
+        <h1>Cinema, calmly found.</h1>
+        <p class="dek">A quieter way to browse Houston showtimes.</p>
+
+        <nav class="mode-switch" aria-label="Browse by">
+          <button class="mode-button" type="button" data-view="movies">
+            <span>
+              <strong>Movies</strong>
+              <small>Browse by title</small>
+            </span>
+          </button>
+          <button class="mode-button active" type="button" data-view="times">
+            <span>
+              <strong>Showtimes</strong>
+              <small>Browse by showtime</small>
+            </span>
+          </button>
+          <button class="mode-button" type="button" data-view="theaters">
+            <span>
+              <strong>Theaters</strong>
+              <small>Browse by venue</small>
+            </span>
+          </button>
+        </nav>
+
+        <section class="controls">
+          <label class="field">
+            <span>Search</span>
+            <input id="search" type="search" autocomplete="off" placeholder="Movies, theaters, tags..." />
+          </label>
+
+          <section aria-labelledby="date-heading">
+            <h2 id="date-heading">Pick a date</h2>
+            <div id="dates" class="date-list"></div>
+          </section>
+
+          <section aria-labelledby="tag-heading">
+            <h2 id="tag-heading">Tags</h2>
+            <div id="tags" class="tag-list"></div>
+          </section>
+
+          <button id="clear" class="clear-button" type="button">Clear filters</button>
+        </section>
+      </aside>
+
+      <section class="results" aria-live="polite">
+        <p id="count" class="sr-only">Loading showtimes</p>
+        <div id="content"></div>
+      </section>
+
+      <aside class="inspector" aria-label="Selected showtime">
+        <div id="details"></div>
+      </aside>
+    </main>
+
+    <footer>
+      <span>Houston showtime prototype</span>
+      <a href="/privacy">Privacy</a>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

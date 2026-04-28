@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.1",
+  "sampleData": false,
+  "generatedAt": "2026-04-28",
+  "timeZone": "America/Chicago",
+  "coverageNote": "Near-term Houston cinema listings gathered from public source pages for April 28-May 3, 2026. Verify with source pages before attending.",
+  "description": "Theater-level data for CinemaCalmly. Showtimes link to these records by theaterId.",
+  "theaters": [
+    {
+      "id": "mfah-films",
+      "slug": "mfah-films",
+      "name": "MFAH Films",
+      "neighborhood": "Museum District",
+      "area": "Inner Loop",
+      "venueType": "museum cinema",
+      "shortDescription": "Museum film programming at the Museum of Fine Arts, Houston.",
+      "theaterTags": [
+        "museum",
+        "festival",
+        "subtitled"
+      ],
+      "amenities": [
+        "museum campus",
+        "festival programming"
+      ],
+      "accessibility": [
+        "See MFAH accessibility notes by screening"
+      ],
+      "sourceUrl": "https://www.mfah.org/events?date=2026-04-25&p=3",
+      "sampleNote": "Real near-term listing snapshot; verify before attending."
+    },
+    {
+      "id": "river-oaks-theatre",
+      "slug": "river-oaks-theatre",
+      "name": "River Oaks Theatre",
+      "neighborhood": "River Oaks",
+      "area": "Inner Loop",
+      "venueType": "dine-in cinema",
+      "shortDescription": "Historic Houston theater with art-house, repertory, live-event, and mainstream programming.",
+      "theaterTags": [
+        "dine-in",
+        "independent",
+        "repertory"
+      ],
+      "amenities": [
+        "dine-in service",
+        "reserved seating varies by event"
+      ],
+      "accessibility": [
+        "See theater listing by screening"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/",
+      "sampleNote": "Real near-term listing snapshot; verify before attending."
+    },
+    {
+      "id": "regal-edwards-houston-marqe",
+      "slug": "regal-edwards-houston-marqe",
+      "name": "Regal Edwards Houston Marq'E",
+      "neighborhood": "Spring Branch East",
+      "area": "West Houston",
+      "venueType": "multiplex",
+      "shortDescription": "Large-format Regal multiplex at Houston Marq'E with IMAX, 4DX, ScreenX, RPX, and recliner presentations.",
+      "theaterTags": [
+        "multiplex",
+        "imax",
+        "4dx",
+        "screenx",
+        "rpx"
+      ],
+      "amenities": [
+        "large-format screens",
+        "recliners on select presentations"
+      ],
+      "accessibility": [
+        "Closed-caption devices listed for many screenings"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29",
+      "sampleNote": "Real near-term listing snapshot; verify before attending."
+    },
+    {
+      "id": "ipic-houston",
+      "slug": "ipic-houston",
+      "name": "IPIC Houston",
+      "neighborhood": "River Oaks District",
+      "area": "Uptown",
+      "venueType": "premium cinema",
+      "shortDescription": "Premium cinema in River Oaks District with food-and-drink service.",
+      "theaterTags": [
+        "premium",
+        "dine-in"
+      ],
+      "amenities": [
+        "premium seating",
+        "food and drink service"
+      ],
+      "accessibility": [
+        "See theater listing by screening"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=42051&view=sched&showdate=2026-04-29",
+      "sampleNote": "Real near-term listing snapshot; verify before attending."
+    }
+  ]
+}

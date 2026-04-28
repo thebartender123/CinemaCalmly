@@ -1,0 +1,502 @@
+{
+  "schemaVersion": "1.1",
+  "sampleData": false,
+  "generatedAt": "2026-04-28",
+  "timeZone": "America/Chicago",
+  "coverageNote": "Near-term Houston cinema listings gathered from public source pages for April 28-May 3, 2026. Verify with source pages before attending.",
+  "description": "Movie-level data for CinemaCalmly. Showtimes link to these records by movieId.",
+  "movies": [
+    {
+      "id": "animal-farm",
+      "slug": "animal-farm",
+      "title": "Animal Farm",
+      "releaseYear": 2026,
+      "runtimeMinutes": 95,
+      "rating": "PG",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Andy Serkis",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "bald-is-the-new-black-certains-l-aiment-chauve",
+      "slug": "bald-is-the-new-black-certains-l-aiment-chauve",
+      "title": "Bald Is the New Black (Certains l’aiment chauve)",
+      "releaseYear": 2025,
+      "runtimeMinutes": 90,
+      "rating": "",
+      "country": [
+        "France"
+      ],
+      "languages": [
+        "French"
+      ],
+      "languageDisplay": "French with English subtitles",
+      "director": "Camille Delamarre",
+      "synopsis": "Part of MFAH Films’ Five Funny French Films series.",
+      "movieTags": [
+        "festival",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.mfah.org/events?date=2026-04-25&p=3",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "cycle-of-time-c-tait-mieux-demain",
+      "slug": "cycle-of-time-c-tait-mieux-demain",
+      "title": "Cycle of Time (C’était mieux demain)",
+      "releaseYear": 2025,
+      "runtimeMinutes": 105,
+      "rating": "",
+      "country": [
+        "France"
+      ],
+      "languages": [
+        "French"
+      ],
+      "languageDisplay": "French with English subtitles",
+      "director": "Vinciane Millereau",
+      "synopsis": "Part of MFAH Films’ Five Funny French Films series.",
+      "movieTags": [
+        "festival",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.mfah.org/events?date=2026-04-25&p=3",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "fireflies-at-el-mozote",
+      "slug": "fireflies-at-el-mozote",
+      "title": "Fireflies at El Mozote",
+      "releaseYear": 2026,
+      "runtimeMinutes": 104,
+      "rating": "Not Rated",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Ernesto Melara",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [
+        "subtitled",
+        "dubbed",
+        "spanish-language"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "girls-trip",
+      "slug": "girls-trip",
+      "title": "Girls Trip",
+      "releaseYear": 2017,
+      "runtimeMinutes": 122,
+      "rating": "R",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Malcolm D. Lee",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "hokum",
+      "slug": "hokum",
+      "title": "Hokum",
+      "releaseYear": 2026,
+      "runtimeMinutes": 101,
+      "rating": "R",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Damian McCarthy",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "hoppers",
+      "slug": "hoppers",
+      "title": "Hoppers",
+      "releaseYear": 2026,
+      "runtimeMinutes": 105,
+      "rating": "PG",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Daniel Chong",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "houston-filmmaker-showcase-april-2026",
+      "slug": "houston-filmmaker-showcase-april-2026",
+      "title": "Houston Filmmaker Showcase - April 2026",
+      "releaseYear": 2026,
+      "runtimeMinutes": 120,
+      "rating": "NR",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Various Houston filmmakers",
+      "synopsis": "Monthly local filmmaker showcase at River Oaks Theatre.",
+      "movieTags": [
+        "local",
+        "festival"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "match-made-in-heaven-anges-and-cie",
+      "slug": "match-made-in-heaven-anges-and-cie",
+      "title": "Match Made in Heaven (Anges & Cie)",
+      "releaseYear": 2025,
+      "runtimeMinutes": 90,
+      "rating": "",
+      "country": [
+        "France"
+      ],
+      "languages": [
+        "French"
+      ],
+      "languageDisplay": "French with English subtitles",
+      "director": "Vladimir Rodionov",
+      "synopsis": "Part of MFAH Films’ Five Funny French Films series.",
+      "movieTags": [
+        "festival",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.mfah.org/events?date=2026-04-25&p=3",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "michael",
+      "slug": "michael",
+      "title": "Michael",
+      "releaseYear": 2026,
+      "runtimeMinutes": 130,
+      "rating": "PG-13",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Antoine Fuqua",
+      "synopsis": "River Oaks Theatre listing.",
+      "movieTags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "mother-mary",
+      "slug": "mother-mary",
+      "title": "Mother Mary",
+      "releaseYear": 2026,
+      "runtimeMinutes": 112,
+      "rating": "R",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "David Lowery",
+      "synopsis": "River Oaks Theatre listing.",
+      "movieTags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "natacha-almost-air-hostess-natacha-presque-h-stesse-de-l-air",
+      "slug": "natacha-almost-air-hostess-natacha-presque-h-stesse-de-l-air",
+      "title": "Natacha (Almost) Air Hostess (Natacha [presque] hôstesse de l’air)",
+      "releaseYear": 2025,
+      "runtimeMinutes": 105,
+      "rating": "",
+      "country": [
+        "France"
+      ],
+      "languages": [
+        "French"
+      ],
+      "languageDisplay": "French with English subtitles",
+      "director": "Noémie Saglio",
+      "synopsis": "Part of MFAH Films’ Five Funny French Films series.",
+      "movieTags": [
+        "festival",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.mfah.org/events?date=2026-04-25&p=3",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "off-to-india-d-localis-s",
+      "slug": "off-to-india-d-localis-s",
+      "title": "Off to India (Délocalisés)",
+      "releaseYear": 2025,
+      "runtimeMinutes": 90,
+      "rating": "",
+      "country": [
+        "France"
+      ],
+      "languages": [
+        "French"
+      ],
+      "languageDisplay": "French with English subtitles",
+      "director": "Ali Bougheraba and Redouane Bougheraba",
+      "synopsis": "Part of MFAH Films’ Five Funny French Films series.",
+      "movieTags": [
+        "festival",
+        "subtitled"
+      ],
+      "sourceUrl": "https://www.mfah.org/events?date=2026-04-25&p=3",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "one-ok-rock-detox-japan-tour-2025-at-nissan-stadium-in-cinemas",
+      "slug": "one-ok-rock-detox-japan-tour-2025-at-nissan-stadium-in-cinemas",
+      "title": "ONE OK ROCK Detox Japan Tour 2025 at Nissan Stadium in Cinemas",
+      "releaseYear": 2026,
+      "runtimeMinutes": 118,
+      "rating": "Not Rated",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Naoto Amazutsumi",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "over-your-dead-body",
+      "slug": "over-your-dead-body",
+      "title": "Over Your Dead Body",
+      "releaseYear": 2026,
+      "runtimeMinutes": 105,
+      "rating": "R",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Jorma Taccone",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "power-to-the-people-john-and-yoko-live-in-nyc",
+      "slug": "power-to-the-people-john-and-yoko-live-in-nyc",
+      "title": "Power to the People: John & Yoko Live In NYC",
+      "releaseYear": 2026,
+      "runtimeMinutes": 81,
+      "rating": "Not Rated",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Simon Hilton",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-29",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "project-hail-mary",
+      "slug": "project-hail-mary",
+      "title": "Project Hail Mary",
+      "releaseYear": 2026,
+      "runtimeMinutes": 156,
+      "rating": "PG-13",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Phil Lord and Christopher Miller",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "scott-pilgrim-vs-the-world",
+      "slug": "scott-pilgrim-vs-the-world",
+      "title": "Scott Pilgrim vs. the World",
+      "releaseYear": 2010,
+      "runtimeMinutes": 113,
+      "rating": "PG-13",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Edgar Wright",
+      "synopsis": "River Oaks Theatre listing.",
+      "movieTags": [
+        "repertory"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "the-christophers",
+      "slug": "the-christophers",
+      "title": "The Christophers",
+      "releaseYear": 2026,
+      "runtimeMinutes": 100,
+      "rating": "R",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Steven Soderbergh",
+      "synopsis": "River Oaks Theatre listing.",
+      "movieTags": [
+        "dine-in",
+        "independent"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "the-devil-wears-prada-2",
+      "slug": "the-devil-wears-prada-2",
+      "title": "The Devil Wears Prada 2",
+      "releaseYear": 2026,
+      "runtimeMinutes": 113,
+      "rating": "PG-13",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "David Frankel",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "the-drama",
+      "slug": "the-drama",
+      "title": "The Drama",
+      "releaseYear": 2026,
+      "runtimeMinutes": 105,
+      "rating": "R",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Kristoffer Borgli",
+      "synopsis": "River Oaks Theatre listing.",
+      "movieTags": [
+        "dine-in"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "the-mummy",
+      "slug": "the-mummy",
+      "title": "The Mummy",
+      "releaseYear": 2026,
+      "runtimeMinutes": 134,
+      "rating": "R",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Lee Cronin",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "the-story-of-everything",
+      "slug": "the-story-of-everything",
+      "title": "The Story of Everything",
+      "releaseYear": 2026,
+      "runtimeMinutes": 147,
+      "rating": "Not Rated",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Eric Esau",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-30",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "the-super-mario-galaxy-movie",
+      "slug": "the-super-mario-galaxy-movie",
+      "title": "The Super Mario Galaxy Movie",
+      "releaseYear": 2026,
+      "runtimeMinutes": 98,
+      "rating": "PG",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Aaron Horvath and Michael Jelenic",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "two-prosecutors",
+      "slug": "two-prosecutors",
+      "title": "Two Prosecutors",
+      "releaseYear": 2026,
+      "runtimeMinutes": 118,
+      "rating": "NR",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Sergei Loznitsa",
+      "synopsis": "River Oaks Theatre listing.",
+      "movieTags": [
+        "subtitled",
+        "independent"
+      ],
+      "sourceUrl": "https://www.theriveroakstheatre.com/",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "whisper-of-the-heart-4k",
+      "slug": "whisper-of-the-heart-4k",
+      "title": "Whisper of the Heart 4K",
+      "releaseYear": 1995,
+      "runtimeMinutes": 111,
+      "rating": "G",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Yoshifumi Kondō",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [
+        "dubbed",
+        "subtitled",
+        "japanese-language"
+      ],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    },
+    {
+      "id": "you-me-and-tuscany",
+      "slug": "you-me-and-tuscany",
+      "title": "You, Me & Tuscany",
+      "releaseYear": 2026,
+      "runtimeMinutes": 104,
+      "rating": "PG-13",
+      "country": [],
+      "languages": [],
+      "languageDisplay": "",
+      "director": "Kat Coiro",
+      "synopsis": "Regal Edwards Houston Marq'E schedule listing.",
+      "movieTags": [],
+      "sourceUrl": "https://www.bigscreen.com/Marquee.php?theater=6968&view=sched&showdate=2026-04-28",
+      "contentNote": "Real near-term listing snapshot; verify showtimes before attending."
+    }
+  ]
+}
