@@ -8,7 +8,7 @@ export default function PrivacyPage() {
       </Link>
 
       <p className="mb-4 text-xs uppercase tracking-[0.22em] text-muted">Privacy</p>
-      <h1 className="font-serif text-5xl leading-none tracking-normal text-ink sm:text-6xl">
+      <h1 className="text-5xl font-semibold leading-none tracking-normal text-ink sm:text-6xl">
         Quiet by design.
       </h1>
 

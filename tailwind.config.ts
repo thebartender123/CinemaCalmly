@@ -9,10 +9,13 @@ const config: Config = {
     extend: {
       colors: {
         paper: "#fbfaf7",
+        card: "#fffdf8",
         ink: "#071426",
         muted: "#697386",
         line: "#dedbd2",
-        wash: "#f4f1ea"
+        wash: "#f4f1ea",
+        accent: "#9f3f2f",
+        accentSoft: "#f5ebe6"
       },
       fontFamily: {
         serif: ["Georgia", "Cambria", "Times New Roman", "serif"],

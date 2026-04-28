@@ -3,6 +3,7 @@
 .next/
 .vercel/
 node_modules/
+backups/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

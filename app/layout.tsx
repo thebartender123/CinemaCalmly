@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Cinema, calmly found.",
-  description: "A quieter way to browse Houston cinema showtimes."
+  description: "HTX showtimes without fuss."
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -1,5 +1,6 @@
 "use client";
 
+import type { CSSProperties } from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { ShowtimeListing } from "@/types/cinema";
 
@@ -8,6 +9,23 @@ type Props = {
 };
 
 type ViewMode = "movies" | "times" | "theaters";
+
+const taglineOptions = [
+  "HTX showtimes without fuss.",
+  "HTX showtimes, without the noise.",
+  "Séances HTX, sans détour.",
+  "Horaires ciné HTX, sans complications.",
+  "Orari cinema HTX, senza fronzoli.",
+  "Programmazione HTX, senza rumore.",
+  "Horarios de cine HTX, sin rodeos.",
+  "Cartelera HTX, sin distracciones.",
+  "HTX-Showtimes, ohne Umwege.",
+  "HTX-Kinozeiten, ohne Schnickschnack.",
+  "HTX-visningar utan krångel.",
+  "HTX-biotider, utan brus.",
+  "HTXの上映時間を、すっきりと。",
+  "HTXの映画時間を、静かに。"
+];
 
 const modes: { id: ViewMode; title: string; description: string }[] = [
   { id: "movies", title: "Movies", description: "Browse by title" },
@@ -20,6 +38,14 @@ const showtimeWindows = [
   { id: "early-afternoon", title: "Early afternoon", description: "12-3:59 p.m.", min: 720, max: 959 },
   { id: "late-afternoon", title: "Late afternoon", description: "4-6:59 p.m.", min: 960, max: 1139 },
   { id: "evening", title: "Evening", description: "7 p.m. and later", min: 1140, max: 1439 }
+];
+
+const posterPalettes = [
+  { background: "#ebe5dc", accent: "#a63f2f", ink: "#071426" },
+  { background: "#dde6e1", accent: "#2f6c66", ink: "#071426" },
+  { background: "#ece8d6", accent: "#9b6a22", ink: "#071426" },
+  { background: "#e4e4e7", accent: "#3b4f6b", ink: "#071426" },
+  { background: "#eadfde", accent: "#8f3b4a", ink: "#071426" }
 ];
 
 function formatDateLabel(date: string) {
@@ -63,6 +89,34 @@ function compactMeta(parts: Array<string | number | null | undefined>) {
     .join(" / ");
 }
 
+function hashString(value: string) {
+  return Array.from(value).reduce((total, char) => (total * 31 + char.charCodeAt(0)) % 9973, 7);
+}
+
+function posterPalette(id: string) {
+  return posterPalettes[hashString(id) % posterPalettes.length];
+}
+
+function titleInitials(title: string) {
+  const words = title
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/[^a-zA-Z0-9 ]/g, " ")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+  const meaningfulWords = words.filter(
+    (word) => !["a", "an", "and", "at", "in", "of", "the"].includes(word.toLowerCase())
+  );
+  const sourceWords = meaningfulWords.length > 0 ? meaningfulWords : words;
+  const initials = sourceWords.slice(0, 2).map((word) => word.charAt(0).toUpperCase()).join("");
+
+  return initials || "CC";
+}
+
+function showtimeCountLabel(count: number) {
+  return `${count} showtime${count === 1 ? "" : "s"}`;
+}
+
 function movieMeta(movie: ShowtimeListing["movie"]) {
   return compactMeta([
     movie.director,
@@ -97,59 +151,45 @@ function shortTheaterName(name: string) {
   return name;
 }
 
-function theaterLineForListings(items: ShowtimeListing[]) {
-  return uniqueBy(items, (listing) => listing.theater.id)
-    .map((listing) => listing.theater.name)
-    .sort((a, b) => a.localeCompare(b))
-    .join(" / ");
-}
+function PosterPlate({ movie, size = "small" }: { movie: ShowtimeListing["movie"]; size?: "small" | "large" }) {
+  const palette = posterPalette(movie.id);
+  const style: CSSProperties = { backgroundColor: palette.background, color: palette.ink };
+  const accentStyle: CSSProperties = { backgroundColor: palette.accent };
+  const sizeClass = size === "large" ? "aspect-[2/3] w-full max-w-64" : "h-28 w-20 sm:h-32 sm:w-24";
 
-function matchesQuery(listing: ShowtimeListing, query: string) {
-  const normalized = query.trim().toLowerCase();
-
-  if (!normalized) {
-    return true;
-  }
-
-  const searchText = [
-    listing.movie.title,
-    listing.movie.director,
-    listing.theater.name,
-    ...listing.movie.movieTags,
-    ...listing.theater.theaterTags,
-    ...listing.tags
-  ]
-    .join(" ")
-    .toLowerCase();
-
-  return searchText.includes(normalized);
+  return (
+    <span
+      className={`relative isolate grid shrink-0 place-items-center overflow-hidden rounded-md border border-line ${sizeClass}`}
+      style={style}
+      aria-hidden="true"
+    >
+      <span className="absolute left-3 top-3 h-1 w-9" style={accentStyle} />
+      <span className="absolute bottom-3 right-3 h-10 w-1" style={accentStyle} />
+      <span className="relative px-3 text-center text-lg font-semibold leading-none sm:text-xl">
+        {titleInitials(movie.title)}
+      </span>
+    </span>
+  );
 }
 
 export default function ShowtimeBrowser({ listings }: Props) {
   const dates = useMemo(() => Array.from(new Set(listings.map((listing) => listing.date))).sort(), [listings]);
-  const [query, setQuery] = useState("");
   const [selectedDate, setSelectedDate] = useState(dates[0] ?? "");
-  const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [view, setView] = useState<ViewMode>("times");
   const [selectedMovieId, setSelectedMovieId] = useState("");
   const [selectedTheaterId, setSelectedTheaterId] = useState("");
   const [selectedShowtimeWindowId, setSelectedShowtimeWindowId] = useState("");
   const [selectedListingId, setSelectedListingId] = useState("");
+  const [tagline, setTagline] = useState(taglineOptions[0]);
   const detailsRef = useRef<HTMLElement | null>(null);
-
-  const tags = useMemo(
-    () => Array.from(new Set(listings.flatMap((listing) => listing.tags))).sort((a, b) => a.localeCompare(b)),
-    [listings]
-  );
 
   const filteredListings = useMemo(() => {
     return listings.filter((listing) => {
       const dateMatches = selectedDate ? listing.date === selectedDate : true;
-      const tagMatches = selectedTags.every((tag) => listing.tags.includes(tag));
 
-      return dateMatches && tagMatches && matchesQuery(listing, query);
+      return dateMatches;
     });
-  }, [listings, query, selectedDate, selectedTags]);
+  }, [listings, selectedDate]);
 
   const movieCards = useMemo(() => {
     return uniqueBy(filteredListings, (listing) => listing.movie.id)
@@ -176,25 +216,12 @@ export default function ShowtimeBrowser({ listings }: Props) {
     detailsRef.current?.scrollIntoView({ block: "start", behavior: "auto" });
   }, [selectedListingId]);
 
+  useEffect(() => {
+    setTagline(taglineOptions[Math.floor(Math.random() * taglineOptions.length)]);
+  }, []);
+
   function resetSelection() {
     setSelectedListingId("");
-  }
-
-  function clearFilters() {
-    setQuery("");
-    setSelectedDate(dates[0] ?? "");
-    setSelectedTags([]);
-    setSelectedMovieId("");
-    setSelectedTheaterId("");
-    setSelectedShowtimeWindowId("");
-    resetSelection();
-  }
-
-  function toggleTag(tag: string) {
-    setSelectedTags((current) =>
-      current.includes(tag) ? current.filter((item) => item !== tag) : [...current, tag]
-    );
-    resetSelection();
   }
 
   function changeView(nextView: ViewMode) {
@@ -215,7 +242,7 @@ export default function ShowtimeBrowser({ listings }: Props) {
         {tagsToRender.map((tag) => (
           <span
             key={tag}
-            className="inline-flex min-h-6 items-center whitespace-nowrap rounded-full border border-line bg-wash px-3 py-1 text-xs leading-none text-ink"
+            className="inline-flex min-h-6 items-center whitespace-nowrap rounded-full border border-line bg-paper px-3 py-1 text-xs leading-none text-muted"
           >
             {tag}
           </span>
@@ -224,13 +251,21 @@ export default function ShowtimeBrowser({ listings }: Props) {
     );
   }
 
+  function renderEmptyState(message: string) {
+    return (
+      <div className="rounded-md border border-line bg-card px-5 py-12 text-base leading-7 text-muted">
+        {message}
+      </div>
+    );
+  }
+
   function renderScreeningRows(rows: ShowtimeListing[], context: ViewMode) {
     if (rows.length === 0) {
-      return <div className="border-t border-line py-14 text-base text-muted">No showtimes match those filters.</div>;
+      return renderEmptyState("No showtimes match those filters.");
     }
 
     return (
-      <div className="divide-y divide-line border-t border-line">
+      <div className="grid gap-3">
         {rows.map((listing) => {
           const time = formatTimeLabel(listing.startTime);
           const active = listing.id === selectedListingId;
@@ -249,18 +284,18 @@ export default function ShowtimeBrowser({ listings }: Props) {
           return (
             <button
               key={listing.id}
-              className={`focus-ring grid w-full gap-4 py-5 text-left transition sm:grid-cols-[8rem_minmax(0,1fr)] sm:gap-6 ${
-                active ? "bg-ink/5" : "hover:bg-ink/5"
+              className={`focus-ring group grid w-full gap-4 rounded-md border bg-card p-4 text-left transition duration-150 sm:grid-cols-[7.5rem_minmax(0,1fr)] sm:gap-5 sm:p-5 ${
+                active ? "border-accent bg-accentSoft" : "border-line hover:-translate-y-0.5 hover:border-accent/70"
               }`}
               type="button"
               onClick={() => setSelectedListingId(listing.id)}
             >
               <span className="flex flex-wrap items-baseline gap-x-2 sm:block">
-                <span className="font-serif text-4xl leading-none text-ink sm:block sm:text-5xl">{time.clock}</span>
-                <span className="mt-1 text-sm uppercase tracking-[0.16em] text-muted sm:block">{time.period}</span>
+                <span className="text-4xl font-semibold leading-none text-ink sm:block sm:text-5xl">{time.clock}</span>
+                <span className="mt-1 text-sm uppercase tracking-[0.14em] text-muted sm:block">{time.period}</span>
               </span>
               <span className="min-w-0">
-                <span className="block font-serif text-3xl leading-tight text-ink">{title}</span>
+                <span className="block text-2xl font-semibold leading-tight text-ink">{title}</span>
                 {meta ? <span className="mt-1 block text-sm leading-6 text-muted">{meta}</span> : null}
                 {showTags ? renderBadges(listing.tags) : null}
               </span>
@@ -273,21 +308,24 @@ export default function ShowtimeBrowser({ listings }: Props) {
 
   function renderMovieList() {
     if (movieCards.length === 0) {
-      return <div className="border-t border-line py-14 text-base text-muted">No movies match those filters.</div>;
+      return renderEmptyState("No movies match those filters.");
     }
 
     return (
-      <div className="divide-y divide-line border-t border-line">
+      <div className="tile-grid">
         {movieCards.map((movie) => {
           const movieListings = filteredListings.filter((listing) => listing.movie.id === movie.id);
           const preview = sortByShowtime(movieListings)
             .slice(0, 3)
-            .map((listing) => `${shortTheaterName(listing.theater.name)}, ${formatPreviewTime(listing.startTime)}`);
+            .map((listing) => ({
+              id: listing.id,
+              line: `${formatPreviewTime(listing.startTime)} ${shortTheaterName(listing.theater.name)}`
+            }));
 
           return (
             <button
               key={movie.id}
-              className="focus-ring grid w-full gap-4 py-5 text-left sm:grid-cols-[minmax(0,1fr)_minmax(10rem,16rem)] sm:gap-6"
+              className="focus-ring group flex h-full w-full flex-col rounded-md border border-line bg-card p-5 text-left transition duration-150 hover:-translate-y-0.5 hover:border-accent/70"
               type="button"
               onClick={() => {
                 setSelectedMovieId(movie.id);
@@ -297,26 +335,23 @@ export default function ShowtimeBrowser({ listings }: Props) {
               }}
             >
               <span className="min-w-0">
-                <span className="block font-serif text-3xl leading-tight text-ink underline-offset-4 hover:underline">
+                <span className="block text-2xl font-semibold leading-tight text-ink">
                   {movie.title}
                 </span>
-                <span className="mt-1 block overflow-hidden text-sm leading-6 text-muted [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2]">
-                  {theaterLineForListings(movieListings)}
-                </span>
-                <span className="mt-1 block text-sm leading-6 text-muted">
-                  {movie.director || "Director unavailable"}
-                </span>
-                <span className="mt-1 block text-sm leading-6 text-muted">
+                <span className="mt-2 block text-sm leading-6 text-muted">
                   {compactMeta([
+                    movie.director || "Director unavailable",
                     movie.releaseYear,
-                    movie.runtimeMinutes ? `${movie.runtimeMinutes} min` : "",
-                    movie.languageDisplay
+                    movie.runtimeMinutes ? `${movie.runtimeMinutes} min` : ""
                   ])}
                 </span>
               </span>
-              <span className="grid gap-1 text-left text-xs leading-5 text-muted sm:text-right">
-                {preview.map((line) => (
-                  <span key={line}>{line}</span>
+              <span className="mt-5 grid gap-2 border-t border-line pt-4 text-left text-xs leading-5 text-muted">
+                <span className="font-medium uppercase tracking-[0.14em] text-accent">
+                  {showtimeCountLabel(movieListings.length)}
+                </span>
+                {preview.map((item) => (
+                  <span key={item.id}>{item.line}</span>
                 ))}
               </span>
             </button>
@@ -328,21 +363,24 @@ export default function ShowtimeBrowser({ listings }: Props) {
 
   function renderTheaterList() {
     if (theaterCards.length === 0) {
-      return <div className="border-t border-line py-14 text-base text-muted">No theaters match those filters.</div>;
+      return renderEmptyState("No theaters match those filters.");
     }
 
     return (
-      <div className="divide-y divide-line border-t border-line">
+      <div className="tile-grid">
         {theaterCards.map((theater) => {
           const theaterListings = filteredListings.filter((listing) => listing.theater.id === theater.id);
           const preview = sortByShowtime(theaterListings)
             .slice(0, 3)
-            .map((listing) => `${formatPreviewTime(listing.startTime)} ${listing.movie.title}`);
+            .map((listing) => ({
+              id: listing.id,
+              line: `${formatPreviewTime(listing.startTime)} ${listing.movie.title}`
+            }));
 
           return (
             <button
               key={theater.id}
-              className="focus-ring grid w-full gap-4 py-5 text-left sm:grid-cols-[minmax(0,1fr)_minmax(10rem,16rem)] sm:gap-6"
+              className="focus-ring group flex h-full w-full flex-col rounded-md border border-line bg-card p-5 text-left transition duration-150 hover:-translate-y-0.5 hover:border-accent/70"
               type="button"
               onClick={() => {
                 setSelectedTheaterId(theater.id);
@@ -352,19 +390,19 @@ export default function ShowtimeBrowser({ listings }: Props) {
               }}
             >
               <span className="min-w-0">
-                <span className="block font-serif text-3xl leading-tight text-ink underline-offset-4 hover:underline">
+                <span className="block text-2xl font-semibold leading-tight text-ink">
                   {theater.name}
                 </span>
-                <span className="mt-1 block text-sm leading-6 text-muted">
-                  {compactMeta([theater.neighborhood, theater.area])}
-                </span>
-                <span className="mt-1 block text-sm leading-6 text-muted">
-                  {theater.venueType}
+                <span className="mt-2 block text-sm leading-6 text-muted">
+                  {compactMeta([theater.neighborhood, theater.area, theater.venueType])}
                 </span>
               </span>
-              <span className="grid gap-1 text-left text-xs leading-5 text-muted sm:text-right">
-                {preview.map((line) => (
-                  <span key={line}>{line}</span>
+              <span className="mt-5 grid gap-2 border-t border-line pt-4 text-left text-xs leading-5 text-muted">
+                <span className="font-medium uppercase tracking-[0.14em] text-accent">
+                  {showtimeCountLabel(theaterListings.length)}
+                </span>
+                {preview.map((item) => (
+                  <span key={item.id}>{item.line}</span>
                 ))}
               </span>
             </button>
@@ -376,25 +414,28 @@ export default function ShowtimeBrowser({ listings }: Props) {
 
   function renderScopeHeader(title: string) {
     return (
-      <section className="mb-4 border-b border-line pb-5">
-        <h2 className="mt-2 font-serif text-3xl leading-tight text-ink">{title}</h2>
+      <section className="mb-4 rounded-md border border-line bg-card px-5 py-4">
+        <h2 className="text-2xl font-semibold leading-tight text-ink">{title}</h2>
       </section>
     );
   }
 
   function renderShowtimeWindowList() {
     return (
-      <div className="divide-y divide-line border-t border-line">
+      <div className="tile-grid">
         {showtimeWindows.map((window) => {
           const windowListings = filteredListings.filter((listing) => listingIsInWindow(listing, window));
           const preview = sortByShowtime(windowListings)
             .slice(0, 3)
-            .map((listing) => `${formatPreviewTime(listing.startTime)} ${listing.movie.title}`);
+            .map((listing) => ({
+              id: listing.id,
+              line: `${formatPreviewTime(listing.startTime)} ${listing.movie.title}`
+            }));
 
           return (
             <button
               key={window.id}
-              className="focus-ring grid w-full gap-4 py-5 text-left sm:grid-cols-[minmax(0,1fr)_minmax(10rem,16rem)] sm:gap-6"
+              className="focus-ring group flex h-full w-full flex-col rounded-md border border-line bg-card p-5 text-left transition duration-150 hover:-translate-y-0.5 hover:border-accent/70"
               type="button"
               onClick={() => {
                 setSelectedShowtimeWindowId(window.id);
@@ -404,15 +445,20 @@ export default function ShowtimeBrowser({ listings }: Props) {
               }}
             >
               <span className="min-w-0">
-                <span className="block font-serif text-3xl leading-tight text-ink underline-offset-4 hover:underline">
+                <span className="block text-2xl font-semibold leading-tight text-ink">
                   {window.title}
                 </span>
-                <span className="mt-1 block text-sm leading-6 text-muted">
+                <span className="mt-2 block text-sm leading-6 text-muted">
                   {window.description}
                 </span>
               </span>
-              <span className="grid gap-1 text-left text-xs leading-5 text-muted sm:text-right">
-                {preview.length > 0 ? preview.map((line) => <span key={line}>{line}</span>) : <span>No matching showtimes</span>}
+              <span className="mt-5 grid gap-2 border-t border-line pt-4 text-left text-xs leading-5 text-muted">
+                <span className="font-medium uppercase tracking-[0.14em] text-accent">
+                  {showtimeCountLabel(windowListings.length)}
+                </span>
+                {preview.length > 0
+                  ? preview.map((item) => <span key={item.id}>{item.line}</span>)
+                  : <span>No matching showtimes</span>}
               </span>
             </button>
           );
@@ -481,13 +527,13 @@ export default function ShowtimeBrowser({ listings }: Props) {
     const time = formatTimeLabel(selectedListing.startTime);
 
     return (
-      <article>
-        <div className="mb-5 grid aspect-[2/3] w-full max-w-64 place-items-center border border-line bg-wash text-xs uppercase tracking-[0.22em] text-muted">
-          Poster
+      <article className="rounded-md border border-line bg-card p-5">
+        <div className="mb-5">
+          <PosterPlate movie={movie} size="large" />
         </div>
 
-        <p className="text-xs uppercase tracking-[0.24em] text-muted">Selected showtime</p>
-        <h2 className="mt-3 font-serif text-4xl leading-none text-ink">{movie.title}</h2>
+        <p className="text-xs uppercase tracking-[0.2em] text-accent">Selected showtime</p>
+        <h2 className="mt-3 text-3xl font-semibold leading-tight text-ink">{movie.title}</h2>
         <p className="mt-3 text-base leading-7 text-muted">{movieMeta(movie)}</p>
 
         <dl className="mt-5 grid gap-3">
@@ -515,19 +561,27 @@ export default function ShowtimeBrowser({ listings }: Props) {
     );
   }
 
+  const layoutBase =
+    "mx-auto grid min-h-[calc(100vh-4rem)] w-full max-w-[98rem] gap-6 px-5 py-5 sm:px-7 md:grid-cols-[18rem_minmax(0,1fr)] md:gap-8 md:py-8 lg:grid-cols-[20rem_minmax(0,1fr)] lg:px-8 lg:py-10";
+  const layoutClass = selectedListing
+    ? `${layoutBase} xl:grid-cols-[20rem_minmax(26rem,1fr)_minmax(18rem,23rem)]`
+    : `${layoutBase} xl:grid-cols-[20rem_minmax(0,1fr)]`;
+
   return (
-    <main className="mx-auto grid min-h-[calc(100vh-4rem)] w-full max-w-[98rem] gap-7 px-5 py-5 sm:px-7 md:grid-cols-[18rem_minmax(0,1fr)] md:gap-8 md:py-8 lg:grid-cols-[20rem_minmax(0,1fr)] lg:gap-10 lg:px-8 lg:py-10 xl:grid-cols-[20rem_minmax(26rem,1fr)_minmax(18rem,23rem)]">
+    <main className={layoutClass}>
       <aside className="order-1 md:order-none md:sticky md:top-8 md:h-[calc(100vh-4rem)] md:overflow-y-auto md:overscroll-contain md:pb-8 md:pr-2 md:[scrollbar-gutter:stable]">
         <div className="max-w-xl md:max-w-none">
-          <h1 className="font-serif text-[4.25rem] leading-[0.9] tracking-normal text-ink sm:text-[5rem] md:text-[4.2rem] lg:text-[4.8rem]">
+          <h1 className="text-[3.45rem] font-semibold leading-[0.92] tracking-normal text-ink sm:text-[3.85rem] md:text-[3.7rem] lg:text-[4.2rem]">
             <span className="block">Cinema,</span>
             <span className="block">calmly found.</span>
           </h1>
           <p className="mt-4 max-w-sm text-base leading-7 text-muted md:mt-5">
-            A quieter way to browse Houston showtimes.
+            {tagline}
           </p>
 
-          <nav className="mt-6 overflow-hidden rounded-md border border-line md:mt-8" aria-label="Browse by">
+          <div className="mt-6 md:mt-8">
+            <h2 className="mb-2 text-sm font-medium text-ink">Pick an approach</h2>
+            <nav className="overflow-hidden rounded-md border border-line bg-card" aria-label="Browse by">
             {modes.map((mode) => {
               const active = mode.id === view;
 
@@ -535,7 +589,7 @@ export default function ShowtimeBrowser({ listings }: Props) {
                 <button
                   key={mode.id}
                   className={`focus-ring flex min-h-16 w-full items-center border-b border-line px-4 text-left last:border-b-0 ${
-                    active ? "bg-ink text-paper" : "bg-paper text-ink hover:bg-ink hover:text-paper"
+                    active ? "bg-ink text-paper" : "bg-card text-ink hover:bg-paper"
                   }`}
                   type="button"
                   aria-pressed={active}
@@ -550,40 +604,27 @@ export default function ShowtimeBrowser({ listings }: Props) {
                 </button>
               );
             })}
-          </nav>
+            </nav>
+          </div>
 
-          <div className="mt-5 space-y-5 md:mt-6 md:space-y-6">
-            <label className="block">
-              <span className="mb-2 block text-sm font-medium text-ink">Search</span>
-              <input
-                className="focus-ring h-12 w-full rounded-md border border-line bg-paper px-4 text-base text-ink placeholder:text-muted"
-                placeholder="Movies, theaters, tags..."
-                type="search"
-                value={query}
-                onChange={(event) => {
-                  setQuery(event.target.value);
-                  resetSelection();
-                }}
-              />
-            </label>
-
+          <div className="mt-5 md:mt-6">
             <section aria-labelledby="date-heading">
               <div className="mb-2 flex items-center justify-between gap-4">
                 <h2 id="date-heading" className="text-sm font-medium text-ink">
-                  Pick a date
+                  Set the date
                 </h2>
               </div>
-              <div className="grid gap-2">
+              <div className="grid grid-cols-2 gap-2">
                 {dates.map((date) => {
                   const active = date === selectedDate;
 
                   return (
                     <button
                       key={date}
-                      className={`focus-ring flex min-h-11 items-center justify-between rounded-md border px-4 text-left text-sm transition ${
+                      className={`focus-ring flex min-h-14 flex-col items-start justify-center rounded-md border px-3 py-2 text-left text-sm transition ${
                         active
                           ? "border-ink bg-ink text-paper"
-                          : "border-line bg-paper text-ink hover:border-ink"
+                          : "border-line bg-card text-ink hover:border-accent/70"
                       }`}
                       type="button"
                       onClick={() => {
@@ -592,50 +633,14 @@ export default function ShowtimeBrowser({ listings }: Props) {
                       }}
                     >
                       <span>{date === dates[0] ? "Today" : formatDateLabel(date).split(",")[0]}</span>
-                      <span className={active ? "text-paper/75" : "text-muted"}>{formatDateLabel(date)}</span>
+                      <span className={`mt-1 text-xs ${active ? "text-paper/75" : "text-muted"}`}>
+                        {formatDateLabel(date)}
+                      </span>
                     </button>
                   );
                 })}
               </div>
             </section>
-
-            <section aria-labelledby="tag-heading">
-              <h2 id="tag-heading" className="mb-2 text-sm font-medium text-ink">
-                Tags
-              </h2>
-              <div className="grid grid-cols-2 gap-2 max-[430px]:grid-cols-1">
-                {tags.map((tag) => {
-                  const active = selectedTags.includes(tag);
-
-                  return (
-                    <button
-                      key={tag}
-                      className={`focus-ring flex min-h-11 min-w-0 items-center justify-between gap-2 overflow-hidden whitespace-nowrap rounded-full border px-4 text-left text-sm transition ${
-                        active
-                          ? "border-ink bg-ink text-paper"
-                          : "border-line bg-paper text-ink hover:border-ink"
-                      }`}
-                      type="button"
-                      onClick={() => toggleTag(tag)}
-                    >
-                      <span className="truncate">{tag}</span>
-                      <span
-                        className={`size-2 shrink-0 rounded-full border border-current ${active ? "bg-current" : ""}`}
-                        aria-hidden="true"
-                      />
-                    </button>
-                  );
-                })}
-              </div>
-            </section>
-
-            <button
-              className="focus-ring min-h-11 rounded-md border border-line bg-paper px-4 text-sm text-ink transition hover:border-ink"
-              type="button"
-              onClick={clearFilters}
-            >
-              Clear filters
-            </button>
           </div>
         </div>
       </aside>
@@ -647,7 +652,7 @@ export default function ShowtimeBrowser({ listings }: Props) {
       <aside
         ref={detailsRef}
         className={`order-2 min-w-0 border-t border-line pt-6 md:order-none md:col-start-2 md:border-l md:border-t-0 md:pl-6 md:pt-0 xl:sticky xl:top-8 xl:col-start-auto xl:h-[calc(100vh-4rem)] xl:overflow-y-auto xl:overscroll-contain xl:pb-8 xl:[scrollbar-gutter:stable] ${
-          selectedListing ? "" : "hidden md:block md:border-l-transparent"
+          selectedListing ? "" : "hidden"
         }`}
       >
         {renderDetails()}
