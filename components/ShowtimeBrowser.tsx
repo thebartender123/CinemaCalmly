@@ -516,17 +516,18 @@ export default function ShowtimeBrowser({ listings }: Props) {
   }
 
   return (
-    <main className="mx-auto grid min-h-[calc(100vh-4rem)] w-full max-w-[98rem] gap-9 px-5 py-6 sm:px-8 lg:grid-cols-[20rem_minmax(0,1fr)] lg:gap-10 lg:py-10 xl:grid-cols-[20rem_minmax(26rem,1fr)_minmax(18rem,23rem)]">
-      <aside className="order-1 lg:order-none lg:sticky lg:top-8 lg:h-[calc(100vh-4rem)] lg:overflow-y-auto lg:overscroll-contain lg:pb-8 lg:pr-2 lg:[scrollbar-gutter:stable]">
-        <div className="max-w-xl lg:max-w-none">
-          <h1 className="font-serif text-6xl leading-[0.92] tracking-normal text-ink sm:text-7xl lg:text-[4.8rem]">
-            Cinema, calmly found.
+    <main className="mx-auto grid min-h-[calc(100vh-4rem)] w-full max-w-[98rem] gap-7 px-5 py-5 sm:px-7 md:grid-cols-[18rem_minmax(0,1fr)] md:gap-8 md:py-8 lg:grid-cols-[20rem_minmax(0,1fr)] lg:gap-10 lg:px-8 lg:py-10 xl:grid-cols-[20rem_minmax(26rem,1fr)_minmax(18rem,23rem)]">
+      <aside className="order-1 md:order-none md:sticky md:top-8 md:h-[calc(100vh-4rem)] md:overflow-y-auto md:overscroll-contain md:pb-8 md:pr-2 md:[scrollbar-gutter:stable]">
+        <div className="max-w-xl md:max-w-none">
+          <h1 className="font-serif text-[4.25rem] leading-[0.9] tracking-normal text-ink sm:text-[5rem] md:text-[4.2rem] lg:text-[4.8rem]">
+            <span className="block">Cinema,</span>
+            <span className="block">calmly found.</span>
           </h1>
-          <p className="mt-5 max-w-sm text-base leading-7 text-muted">
+          <p className="mt-4 max-w-sm text-base leading-7 text-muted md:mt-5">
             A quieter way to browse Houston showtimes.
           </p>
 
-          <nav className="mt-8 overflow-hidden rounded-md border border-line" aria-label="Browse by">
+          <nav className="mt-6 overflow-hidden rounded-md border border-line md:mt-8" aria-label="Browse by">
             {modes.map((mode) => {
               const active = mode.id === view;
 
@@ -551,7 +552,7 @@ export default function ShowtimeBrowser({ listings }: Props) {
             })}
           </nav>
 
-          <div className="mt-6 space-y-6">
+          <div className="mt-5 space-y-5 md:mt-6 md:space-y-6">
             <label className="block">
               <span className="mb-2 block text-sm font-medium text-ink">Search</span>
               <input
@@ -639,14 +640,14 @@ export default function ShowtimeBrowser({ listings }: Props) {
         </div>
       </aside>
 
-      <section className="order-3 min-w-0 lg:order-none" aria-live="polite">
+      <section className="order-3 min-w-0 md:order-none" aria-live="polite">
         {renderContent()}
       </section>
 
       <aside
         ref={detailsRef}
-        className={`order-2 min-w-0 border-t border-line pt-6 lg:order-none lg:col-start-2 lg:border-l lg:border-t-0 lg:pl-6 lg:pt-0 xl:sticky xl:top-8 xl:col-start-auto xl:h-[calc(100vh-4rem)] xl:overflow-y-auto xl:overscroll-contain xl:pb-8 xl:[scrollbar-gutter:stable] ${
-          selectedListing ? "" : "hidden lg:block lg:border-l-transparent"
+        className={`order-2 min-w-0 border-t border-line pt-6 md:order-none md:col-start-2 md:border-l md:border-t-0 md:pl-6 md:pt-0 xl:sticky xl:top-8 xl:col-start-auto xl:h-[calc(100vh-4rem)] xl:overflow-y-auto xl:overscroll-contain xl:pb-8 xl:[scrollbar-gutter:stable] ${
+          selectedListing ? "" : "hidden md:block md:border-l-transparent"
         }`}
       >
         {renderDetails()}
