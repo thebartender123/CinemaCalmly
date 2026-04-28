@@ -34,7 +34,7 @@ const modes: { id: ViewMode; title: string; description: string }[] = [
 ];
 
 const showtimeWindows = [
-  { id: "prior-to-noon", title: "Prior to noon", description: "Before 12 p.m.", min: 0, max: 719 },
+  { id: "prior-to-noon", title: "Morning", description: "Before 12 p.m.", min: 0, max: 719 },
   { id: "early-afternoon", title: "Early afternoon", description: "12-3:59 p.m.", min: 720, max: 959 },
   { id: "late-afternoon", title: "Late afternoon", description: "4-6:59 p.m.", min: 960, max: 1139 },
   { id: "evening", title: "Evening", description: "7 p.m. and later", min: 1140, max: 1439 }
@@ -52,6 +52,21 @@ function formatDateLabel(date: string) {
   return new Intl.DateTimeFormat("en-US", {
     weekday: "short",
     month: "short",
+    day: "numeric",
+    timeZone: "UTC"
+  }).format(new Date(`${date}T12:00:00Z`));
+}
+
+function formatWeekdayLabel(date: string) {
+  return new Intl.DateTimeFormat("en-US", {
+    weekday: "long",
+    timeZone: "UTC"
+  }).format(new Date(`${date}T12:00:00Z`));
+}
+
+function formatMonthDayLabel(date: string) {
+  return new Intl.DateTimeFormat("en-US", {
+    month: "long",
     day: "numeric",
     timeZone: "UTC"
   }).format(new Date(`${date}T12:00:00Z`));
@@ -632,9 +647,11 @@ export default function ShowtimeBrowser({ listings }: Props) {
                         resetSelection();
                       }}
                     >
-                      <span>{date === dates[0] ? "Today" : formatDateLabel(date).split(",")[0]}</span>
-                      <span className={`mt-1 text-xs ${active ? "text-paper/75" : "text-muted"}`}>
-                        {formatDateLabel(date)}
+                      <span className="text-base font-medium leading-5">
+                        {date === dates[0] ? "Today" : formatWeekdayLabel(date)}
+                      </span>
+                      <span className={`mt-1 text-xs leading-4 ${active ? "text-paper/75" : "text-muted"}`}>
+                        {formatMonthDayLabel(date)}
                       </span>
                     </button>
                   );
